@@ -1,0 +1,5 @@
+
+Image result for java faker
+Faker is an open-source python library that allows you to create your own dataset i.e you can generate random data with random attributes like name, age, location, etc. It supports all major locations and languages which is beneficial for generating data based on locality.
+usage:
+Faker faker=new Faker

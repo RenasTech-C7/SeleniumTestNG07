@@ -1,0 +1,32 @@
+DRIVER UTILITY
+
+- initialize the driver without coding too many line for each class
+- Being able to pass the same driver instance when calling methods from other classes
+
+Singleton Design pattern in DriverUtil:
+	-> We create a private constructor, and we also create a getter method
+	to allow users to create the instance of this class from getter.
+    -> You cannot create an object of that class because you made Priavete Constractor
+    --there will be always one instance of driver with singleton design pattern
+    --achive our gol from one instance
+
+Example : https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm
+
+--> Headless browser: The only difference between regular browser,
+headles-browser is: headless ones does not get open in the machine.
+--headles one will excute your code faster.
+
+
+ACTIONS:
+Actions class is a collection of individual Action that you want to perform.
+	-> Actions class allows us to handle mouse and keyboard actions on the web pages.
+	    For Example :
+		-> hover over : moveToElement
+		-> right click: contextClick
+		-> dragAndDrop: allows us to drag and drop a web element
+		-> clickAndHold: clicks onto something and waits for next command
+		-> release :
+
+		1- To get Actions methods, we need to create the instance of the actions class.
+		2- And pass the driver instance into the constructor.
+		3- We must use : perform() method at the end to be able to perform any actions method.
