@@ -14,5 +14,7 @@ public class C1_HelloSelenium {
 
         //navigate to chrome browser
         driver.get("https://www.google.com/");
+        //go to amazon
+        driver.get("https://www.amazon.com/");
     }
 }
