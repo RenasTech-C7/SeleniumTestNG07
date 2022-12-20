@@ -16,6 +16,7 @@ public class c3_TestNGExamples {
     @AfterMethod
     public void closing(){ System.out.println("This is after method, it is running"); }
 
+    //in the below case; TC1 is depends on TC3, if TC3 passed, TC1 will be executed, if not TC1 will be ignored
     @Test(priority = 3,dependsOnMethods = "TC3")
     public void TC1(){
         System.out.println("test 1 is running");
