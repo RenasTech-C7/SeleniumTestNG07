@@ -3,3 +3,5 @@ Prerequisites= Create username and password for guru99
 //Login to Guru99 with username and password
 //Use JavaScript executer to click on login
 //Verify that you login to page
+
+tip: you can use script:  "arguments[0].click();" 
