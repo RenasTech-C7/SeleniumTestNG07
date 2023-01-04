@@ -1,7 +1,7 @@
 Page object model design pattern:
 
 Page Object Model (POM) is a design pattern, popularly used in test automation
-that creates Object Repository for web UI elements. (user interface whihc is what you see on the webpage)
+that creates Object Repository for web UI elements. (user interface which is what you see on the webpage)
 The advantage of the model is that it reduces code duplication and improves test maintenance.
 
 -Under this model, for each web page in the application, there should be a Page Class.
