@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke">
+    <test name="smoke test for explicitly wait">
+        <classes>
+            <class name="myproject.day12.c3_ExplicitlyWait"></class>
+            <class name="myproject.day13.c1_explicitlywaitWithPOM"></class>
+            <class name="myproject.day12.c2_SmartBearNegative"></class>
+            <class name="myproject.day12.c1_smartBearPOM"></class>
+        </classes>
+        
+    </test>
+</suite>

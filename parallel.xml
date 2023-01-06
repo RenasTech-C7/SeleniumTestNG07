@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regression">
+    <test name="TestNg regression suit" parallel="classes" thread-count="4">
+        <classes>
+            <class name="myproject.day10.c3_JSexecuter"></class>
+            <class name="myproject.day09.c2_Tabs"></class>
+            <class name="myproject.day08.c2_Alerts"></class>
+            <class name="myproject.day07.c3_SmartBearWithJavaFaker"></class>
+        </classes>
+    </test>
+</suite>

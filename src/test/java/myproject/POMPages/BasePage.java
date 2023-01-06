@@ -9,7 +9,7 @@ import java.time.Duration;
 public abstract class BasePage {
 
     //encapsulation
-    protected WebDriverWait driverWait=new WebDriverWait(DriverUtil.getDriver(), Duration.ofSeconds(20));
+    protected WebDriverWait driverWait=new WebDriverWait(DriverUtil.getDriver(), Duration.ofSeconds(1));
 
     /*
     IN POM Design you need to have some structure for each page :
