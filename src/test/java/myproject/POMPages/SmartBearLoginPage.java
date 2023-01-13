@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SmartBearLoginPage {
     public SmartBearLoginPage(){
+        //It creates connection in between driver and object of the class.
+        //it is going to initialize elements
         PageFactory.initElements(DriverUtil.getDriver(),this);
     }
 
