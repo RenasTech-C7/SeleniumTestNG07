@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="StudyHall">
+    <listeners>
+        <listener class-name="myproject.studyHalls.Day06_ListenersTestNG"></listener>
+    </listeners>
+    <test name="Study Hall Listeners">
+        <classes>
+            <class name="myproject.studyHalls.day06_ListenersExample"></class>
+        </classes>
+    </test>
+</suite>
