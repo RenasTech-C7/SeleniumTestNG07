@@ -52,7 +52,7 @@ public class c1_explicitlywaitWithPOM extends TestBase2 {
         System.out.println(notEmpty);
         DriverUtil.getDriver().findElement(By.xpath("//li[@id='menu-item-4569']/a")).getText();
 
-        //class is done
+        
 
     }
 
